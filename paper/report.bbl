@@ -1,0 +1,32 @@
+\begin{thebibliography}{1}
+
+\bibitem{Bertin-Mahieux2011b}
+T.~Bertin-Mahieux and D.P.W. Ellis.
+\newblock Large-scale cover song recognition using hashed chroma landmarks.
+\newblock In {\em Proceedings of IEEE WASPAA}, New Platz, NY, 2011. IEEE
+  Workshop on Applications of Signal Processing to Audio and Acoustics
+  (WASPAA).
+
+\bibitem{Bertin-Mahieux2011}
+Thierry Bertin-Mahieux, Daniel~P.W. Ellis, Brian Whitman, and Paul Lamere.
+\newblock The million song dataset.
+\newblock In {\em {Proceedings of the 12th International Conference on Music
+  Information Retrieval ({ISMIR} 2011)}}, 2011.
+
+\bibitem{mcfee2011_sim}
+B.~McFee and {G. R. G.} Lanckriet.
+\newblock Large-scale music similarity search with spatial trees.
+\newblock In {\em 12th International Symposium for Music Information Retrieval
+  (ISMIR2011))}, October 2011.
+
+\bibitem{mcfee2011_nlp}
+B.~McFee and {G. R. G.} Lanckriet.
+\newblock The natural language of playlists.
+\newblock In {\em 12th International Symposium for Music Information Retrieval
+  (ISMIR2011))}, October 2011.
+
+\bibitem{Slaney_learninga}
+Malcolm Slaney, Kilian Weinberger, and William White.
+\newblock Learning a metric for music similarity.
+
+\end{thebibliography}
