@@ -64,13 +64,13 @@ for l in sys.stdin:
         features['pitchWeights'] = (dot(transpose(pitches),pitches))
         header = ['songID', 'artistID','duration', 'meanSegmentLength', 'varSegmentLength', 'meanTimeToMaxLoudnessInSegment', 'meanMaxSegmentLoudness','varMaxSegmentLoudness','lowerMaxSegmentLoudness', 'upperMaxSegmentLoudness','meanBeginSegmentLoudness','varBeginSegmentLoudness','loudness','tempo','varBeat', 'tatumConf', 'meanTatumLength', 'tatumsPerBeat', 'timeSignature', 'timeSignatureConf','mode', 'modeConf']
         for h in header:
-            print features[h],
+            print str(features[h])+",",
         for r in features['pitchCov']:
             for v in r:
-                print round(v,3),
+                print str(round(v,3))+",",
         for r in features['pitchWeights']:
             for v in r:
-                print int(round(v)),
+                print str(int(round(v)))+",",
         print
         t.close()
     except:
