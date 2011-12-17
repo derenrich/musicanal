@@ -57,6 +57,7 @@ It has been shown throughout the literature that first whitening the dataset in 
 Note that for whitening we add in a small constant to all eigenvalues in order to diminish the impact of the smaller terms when we later take the inverse. This means that whitening here is only an approximation. 
 
 Here we show our results on a compressed version of the dataset which only includes the top 500 most frequent artists and 25000 songs. A holdout test set of 5000 songs was used. This was done to decrease artist sparsity. A table of our accuracy is shown below.
+\label{Foo} 
 \begin{center}
 \begin{tabular}{lllll}
 KNN & Euclidean & Whitened & Cosine & Whitened\\
@@ -106,7 +107,7 @@ There is also a problem in the reverse. Large testing datasets result in more cl
  % artist_frequency_dist.png: 550x450 pixel, 72dpi, 19.40x15.88 cm, bb=0 0 550 450
 \end{center}
 
-The fact that KNN performance declines with the value of $k$ is also interesting. What we would really should be analyzing is the fraction of the time that the correct artist appears in the top $k$. Again this is because of the sparsity of the artist data. Settings $k$ to larger values means that we will never select artists which appear less frequently. Using a more dense indicator like genre should solve this problem as there are more exemplars per class.
+The fact that KNN performance declines with the value of $k$, as seen in table \ref{Foo}, is also interesting. What we would really should be analyzing is the fraction of the time that the correct artist appears in the top $k$. Again this is because of the sparsity of the artist data. Settings $k$ to larger values means that we will never select artists which appear less frequently. Using a more dense indicator like genre should solve this problem as there are more exemplars per class.
 
 \section{Conclusions and future work}
 We conclude that future music ML research must be done on datasets of this size in order to generate relevant results. The increase in performance is simply too dramatic to ignore.
